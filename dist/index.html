@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-color">
+    <header></header>
+    <main>
+        <!--Contenedor de la targeta-->
+        <section class="container bg-white w-50 rounded mw-25" id="quote-box">
+
+            <div class="col py-4 px-3 text">
+                <div class="text-center">
+                    <h2 class="text-color fw-lighter"><i class="fa fa-quote-left"></i> <span id="text"></span></h2>
+                </div>
+
+                <div class="text-end">
+                    <p id="author" class="text-color pb-2"></p>
+                </div>
+
+                <!--Botones-->
+                <div class="buttons row">
+
+                    <div class="twitter col-3 d-flex text-center">
+                        <a href="https://twitter.com/intent/tweet" class="btn rounded bg-color ">
+                            <i class="fa fa-twitter text-white"></i>
+                        </a>
+                        <a href="https://www.tumblr.com/new/quote"  class="btn rounded bg-color mx-2 px-3">
+                            <i class="fa fa-tumblr text-white"></i>
+                        </a>
+                    </div>
+
+                    <div class="new-quote col-9">
+                        <div class="text-end">
+                            <a type="button" id="new-quote" class="btn bg-color text-white fw-bold">New Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="text-white text-center m-2">By Jose with Bootstrap</p>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

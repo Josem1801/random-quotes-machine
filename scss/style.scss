@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Animation and width of the card*/
+.card{
+    min-width: 300px;
+}
+#text.toggle, #author.toggle{
+    animation-duration: 1.5s;
+    animation-name: card;
+}
+#text, #author{
+    animation-duration: 1.5s;
+    animation-name: card2;
+}
+@keyframes card2{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes card{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*For center card*/
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Transitions*/
+.text-color,.bg-color{
+    transition: all 1s;
+}
+
+a:hover{
+    opacity: .8; 
+}
+
+#text{
+    font-family: 'Truculenta', sans-serif;  
+}
+
+#author{
+    font-family: 'Indie Flower', cursive
+}
+
+
+
+
+

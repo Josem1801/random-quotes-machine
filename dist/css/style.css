@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Animation and width of the card*/
+.card {
+  min-width: 300px;
+}
+
+#text.toggle, #author.toggle {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-name: card;
+          animation-name: card;
+}
+
+#text, #author {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-name: card2;
+          animation-name: card2;
+}
+
+@-webkit-keyframes card2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes card2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes card {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes card {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*For center card*/
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*Transitions*/
+.text-color, .bg-color {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+a:hover {
+  opacity: .8;
+}
+
+#text {
+  font-family: 'Truculenta', sans-serif;
+}
+
+#author {
+  font-family: 'Indie Flower', cursive;
+}
+/*# sourceMappingURL=style.css.map */
