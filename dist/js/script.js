@@ -18,7 +18,22 @@ let arrPhrases = [
     {phrase: "La mejor manera de aprender sobre cualquier cosa es haciéndolo.", author: "Richard Branson"},
     {phrase: "Si siempre haces lo que te interesa, al menos una persona estará contenta.", author: "Katharine Hepburn"},
     {phrase: "Nada grande se ha logrado sin entusiasmo.", author: "Ralph Waldo Emerson"},
-    {phrase: "Los que dicen que es imposible no deberían molestar a los que lo estan intentando.", author: "Albert Einstein"}
+    {phrase: "Los que dicen que es imposible no deberían molestar a los que lo estan intentando.", author: "Albert Einstein"},
+    {phrase: "Si quieres hacer un cambio permanente, deja de centrarte en el tamaño de tus problemas y céntrate en tu tamaño." , author: "T. Harv Eker"},
+    {phrase: "Sin continuo crecimiento y perseverancia, palabras como mejora, logro y éxito no tienen significado.", author: "Benjamin Franklin"},
+    {phrase: "El éxito depende de la preparación previa, y sin ella seguro que llega el fracaso.", author: "Confucio"},
+    {phrase: "Para enseñar a los demás, primero has de hacer tú algo muy duro: enderezarte a ti mismo.", author: "Buda"},
+    {phrase: "Cuando es evidente que los objetivos no se pueden alcanzar, no ajustes los objetivos, ajusta tos pasos.", author: "Confucio"},
+    {phrase: "El conocimiento llega, pero la sabiduría perdura.", author: "Alfred Lord Tennyson"},
+    {phrase: "Largo es el camino de la enseñanza por medio de teorías; breve y eficaz por medio de ejemplos.", author: "Séneca"},
+    {phrase: "Enseñar es aprender dos veces.", author: "Joseph Joubert"},
+    {phrase: "Las raíces de la educación son amargas, pero la fruta es dulce.", author: "Aristóteles"},
+    {phrase: "El que abre la puerta de una escuela, cierra una prisió.n", author: "Victor Hugo"},
+    {phrase: "La educación es el arma más poderosa que puedes usar para cambiar el mundo.", author:"Nelson Mandela"},
+    {phrase: "El que si niega a aprender en su juventud se pierde en el pasado y esta muerto para el futuro.", author: "Eurípides"},
+    {phrase: "La gente vive años y años pero, en realidad, únicamente durante un tiempo vive de verdad, y es cuando consigue hacer aquello para lo que nació.", author: "Alessandro Baricco"},
+    {phrase: "La pintura es poesía que se ve y no se siente, y la poesía es pintura que se siente y no se ve.", author: "Leonardo da Vinci"},
+    {phrase: "Vive como si fueras a morir mañana, aprende como si fueras a vivir para siempre.", author: "James Dean"}
 ]
 
 newQuote.addEventListener("click", changeAll)
